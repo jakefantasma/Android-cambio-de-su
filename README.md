@@ -59,4 +59,4 @@ la carpeta no se a encontrado :(
 
 si nos sale el menu salimos del terminal emulator apretando home para no cerrarlo y que podamos mover los 3 archivos a la carpeta cambio, si descargaron el zip con las dos verciones de super usuario solo descomprimen y eligen el que desean usar y copian los 3 archivos a la carpeta cambio ya realizado esto solo regresamos al terminal y seleccionamos la opcion 1 cambiar super usuario, yo les sugiero que antes de cambiar el super usuario realizen una copia por si algo no les gusta, espero actualizar el script añadiendo algunas otras opciones bueno a sido todo de mi parte y cualquier duda estoy para ayudar :D
 
-carloscaballeros321@gmail.com by:jf;
+>este repostorio ya no esta en uso desde android 4.0 :(
