@@ -2,7 +2,7 @@
 sd=""
 #Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional License
 #creado por Caballeros Valle Carlos Sebastian
-vercion="2.0"
+version="2.0"
 clear
 e="==============================================="
 er="###############################################"
@@ -156,7 +156,7 @@ function cambiar(){
         echo $e
     else
         echo $e
-        echo "no se encontro una vercion anterior de "
+        echo "no se encontro una version anterior de "
         echo "gestor-su"
         echo $e
     fi
@@ -174,25 +174,25 @@ function cambiar(){
 }
 #funcion borrar su anterior
 function br_su_a(){
-    echo "se esta revisando si hay otra vercion del archivo su"
+    echo "se esta revisando si hay otra version del archivo su"
     if [ -e system/bin/su ]; then
-        echo "se encontro una vercion de su en la ruta"
+        echo "se encontro una version de su en la ruta"
         echo "system/bin"
         sleep 2
         echo "se borrara"
         sleep 2
         rm system/bin/su
         sleep 2
-        echo "se borro la vercion anterior"
+        echo "se borro la version anterior"
     fi
     if [ -e system/xbin/su ]; then
-        echo "se encontro una vercion de su en la ruta"
+        echo "se encontro una version de su en la ruta"
         echo "system/xbin"
         sleep 2
         echo "se borrara"
         sleep 2
         rm system/xbin/su
-        echo "se borro la vercion anterior"
+        echo "se borro la version anterior"
     fi 
 }
 #funcion menu "" de copia 
@@ -328,7 +328,7 @@ function m_res(){
             echo "revisando si hay ruta para la instalacion"
             if [ -e $ba"xbin" ] || [ -e $ba"bin" ]; then
                 echo "hay una ruta de instalacion"
-                echo "se revisara si hay una vercion de gestor-su.apk"
+                echo "se revisara si hay una version de gestor-su.apk"
                 if [ -e $ba"gestor-su.apk"]; then
                     echo "hay una copia del gestor-su.apk"
                     res_o
@@ -378,7 +378,7 @@ function res_o(){
     echo "revisando si hay gestor para instalar"
     sleep 1
     if [ -e $ba"gestor-su.apk" ]; then
-        echo "revisando si hay una vercion anterior del gestor-su.apk"
+        echo "revisando si hay una version anterior del gestor-su.apk"
         sleep 1
         if [ -e system/app/gestor-su.apk ]; then
             echo $e
@@ -389,7 +389,7 @@ function res_o(){
             echo $e
         else
             echo $e
-            echo "no se encontro una vercion anterior de "
+            echo "no se encontro una version anterior de "
             echo "gestor-su"
             echo $e
         fi
